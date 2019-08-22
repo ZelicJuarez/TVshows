@@ -1,0 +1,17 @@
+.filter {
+  text-align: center;
+  padding: 3rem;
+  display: flex;
+  flex-flow: column;
+
+  & h1 {
+    font-size: 5rem;
+  }
+
+  &__input {
+    width: 20rem;
+    align-self: center;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+  }
+}

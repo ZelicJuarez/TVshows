@@ -1,0 +1,15 @@
+.show {
+  width: 100%;
+  border-bottom: 0.1rem solid #ccc;
+  display: flex;
+
+  &__img {
+    height: 20vh;
+    margin: 2rem;
+  }
+
+  &__title {
+    align-self: center;
+    font-size: 3rem;
+  }
+}
