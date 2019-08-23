@@ -2,7 +2,7 @@ import React, { Component, Fragment } from "react";
 import Button from "../components/UI/Button";
 import axiosInstance from "../axios";
 
-const Filter = WrappedComponent => {
+const Search = WrappedComponent => {
   return class extends Component {
     state = {
       query: "",
@@ -29,15 +29,15 @@ const Filter = WrappedComponent => {
     };
 
     render() {
-      //console.log(this.state.searchedShows);
+      console.log(this.state.searchedShows);
       return (
         <Fragment>
-          <div className="filter">
+          <div className="search">
             <h1>My TV Shows</h1>
             <form>
               <input
-                className="filter__input"
-                placeholder="Type to filter..."
+                className="search__input"
+                placeholder="Type to search..."
                 value={this.state.query}
                 onChange={this.handleInputChange}
               />
@@ -55,4 +55,4 @@ const Filter = WrappedComponent => {
   };
 };
 
-export default Filter;
+export default Search;

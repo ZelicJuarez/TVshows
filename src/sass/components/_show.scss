@@ -12,4 +12,17 @@
     align-self: center;
     font-size: 3rem;
   }
+
+  &__button {
+    background-color: transparent;
+    border-color: orangered;
+    height: 5vh;
+    align-self: center;
+    cursor: pointer;
+  }
+
+  &__icon {
+    color: #ccc;
+    font-size: 4rem;
+  }
 }
